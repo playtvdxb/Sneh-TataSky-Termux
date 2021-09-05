@@ -18,8 +18,10 @@
 
 <br>
 <h2>🍁 How To Setup : </h2>
+<br>
 
-#### ♢ Method 1 (Difficult):
+# Method 1 (Difficult):
+<hr>
 
 • First Download ```Termux``` From Playstore <br>
 
