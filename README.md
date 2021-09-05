@@ -55,10 +55,10 @@
   
 # After Running ```python main.py``` command in Termux 
   
-• Click 1 : Put Your Mobile No. , Subscriber ID or Password for first time . <br>
-OR<br>
-• Click 2 : Put Your Mobile No. , Subscriber ID or OTP for first time . <br>
-After Doing Any of Above 1 or 2 .Then Click 3 .<br>
+• Click 1 : ```Put Your Mobile No. , Subscriber ID or Password``` for first time . <br>
+```OR```<br>
+• Click 2 : ```Put Your Mobile No. , Subscriber ID or OTP``` for first time . <br>
+```After Doing Any of Above 1 or 2 ```.Then Click 3 .<br>
 • Click 3 : Generate PlayLists Every 24hrs .  <br><br>
 
 • You Get Your PlayLists under ```DCIM/Sneh-TataSky-Termux/Sneh-TataSky``` Folder of Internal Storage . <br>
