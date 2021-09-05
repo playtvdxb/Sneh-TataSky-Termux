@@ -11,56 +11,76 @@
 <h2>😇 Features :</h2>
 
 - HQ Streaming Free of Cost <br>
-- Will Works In 250, 400, 600, 800 , 1080 in this Gives Qualities
-- Web Play Supports
+- Will Works In 144p, 240p, 360p, 480p, 1080p in this Gives Qualities
+- Direct Web Play Not Supports
 - TiviMate , IPTV Smarter Pro or PC Users can Also Use This 
 
 
 <br>
 <h2>🍁 How To Setup : </h2>
 
-#### ♢ Method 1 :
+#### ♢ Method 1 (Difficult):
 
-• First Download Termux From Playstore <br>
+• First Download ```Termux``` From Playstore <br>
 
   ```py
   [+] -  https://www.apkmirror.com/apk/fredrik-fornwall/termux/termux-0-95-release/termux-0-95-android-apk-download/download/?forcebaseapk 
 
   ```
 
-• Then Run This Commands in Termux <br>
+• Then Run This Commands ```one by one``` in Termux <br>
 
   ```py
-  [+] -  pkg update && upgrade
+  [1] -  pkg update && upgrade
   
-  [+] -  termux-setup-storage   
+  [2] -  termux-setup-storage   
 
-  [+] -  pkg install git python python2 -y
+  [3] -  pkg install git python python2 -y
   
-  [+] -  pip install requests 
+  [4] -  pip install requests 
   
-  [+] -  git clone https://github.com/techiesneh/Sneh-TataSky.git
+  [5] -  git clone https://github.com/techiesneh/Sneh-TataSky.git
 
-  [+] -  cp -r Sneh-TataSky storage/dcim
+  [6] -  cp -r Sneh-TataSky storage/dcim
 
-  [+] -  cd storage/dcim/Sneh-TataSky
+  [7] -  cd storage/dcim/Sneh-TataSky
   
-  [+] -  cd code_samples python main.py
+  [8] -  cd code_samples python main.py
   
-  [+] -  python main.py
+  [9] -  python main.py
 
   ```
   
-# After Running "python main.py" command in Termux 
+# After Running ```python main.py``` command in Termux 
   
 • Click 1 : Put Your Mobile No. , Subscriber ID or Password for first time . <br>
+OR<br>
 • Click 2 : Put Your Mobile No. , Subscriber ID or OTP for first time . <br>
+After Doing Any of Above 1 or 2 .Then Click 3 .<br>
 • Click 3 : Generate PlayLists Every 24hrs .  <br><br>
 
-• You Get Your PlayLists under "DCIM/Sneh-TataSky/code_samples" Folder of Internal Storage . <br>
+• You Get Your PlayLists under ```DCIM/Sneh-TataSky/code_samples``` Folder of Internal Storage . <br>
 • Just Import m3u PlayLists in Tivimate or IPTV Smarter Pro & Enjoy . <br>
 • Click On Channel and Play <br>
 
+# Method 2 with App (Easy)
+<hr>
+
+- You can simply use the android app in your mobile phone or TV, login and then generate an m3u
+- The app can be found [here](static/app.apk)
+- Note that you have to generate a new playlist before the exploit time, that is mentioned in the app, or just one day for simplicity
+- The app can smartly detect if you have a playlist already in the mentioned directory,(the location of the file can be found inside the app), and it overwrites the content if you generate it again and again
+- You can point Tivimate to the location mentioned in the app, and just update once whenever you want to watch the playlist, should work fine
+- **There may be issues navigating through the textfields in TV, Try with the left key to navigate down, works for me, will fix, when I have time**
+- Minimum Supported Version : Android 5.0
+
+# Good points to know
+
++ You must have basic knowledge of how to run scripts using python
++ You **CANNOT** have the channels, which you have not subscribed in the generated playlist
++ The generated m3u file **has to be updated daily**.
+  If you generated it at 11:00pm today it will expire by 11:00pm tomorrow.
+  **You don't need to relogin**, just generate the playlist again using command number 3 in the script.
 
 # Playing in Android TV
 
@@ -78,7 +98,7 @@ See the below section on `Getting hold of individual channels` to know how to ge
 + I personally use [Native MPEG-Dash + HLS Playback](https://chrome.google.com/webstore/detail/native-mpeg-dash-%20-hls-pl/cjfbmleiaobegagekpmlhmaadepdeedn) which doesn't suppport playlists yet
 
 See the below section on `Getting hold of individual channels` to know how to get the link to play a specific channel as you cannot play the entire playlist
-+  Get the channel url (ends with ```.mpd```) and paste it in the browser
++ Get the channel url (ends with ```.mpd```) and paste it in the browser
 + The extension automatically asks for the license url. You should then input the  license url.
 
 <h2>🚸 Warnings :</h2>
