@@ -41,13 +41,13 @@
   
   [4] -  pip install requests 
   
-  [5] -  git clone https://github.com/techiesneh/Sneh-TataSky.git
+  [5] -  git clone https://github.com/techiesneh/Sneh-TataSky-Termux.git
 
-  [6] -  cp -r Sneh-TataSky storage/dcim
+  [6] -  cp -r Sneh-TataSky-Termux storage/dcim
 
-  [7] -  cd storage/dcim/Sneh-TataSky
+  [7] -  cd storage/dcim/Sneh-TataSky-Termux
   
-  [8] -  cd code_samples python main.py
+  [8] -  cd Sneh-TataSky 
   
   [9] -  python main.py
 
@@ -61,7 +61,7 @@ OR<br>
 After Doing Any of Above 1 or 2 .Then Click 3 .<br>
 • Click 3 : Generate PlayLists Every 24hrs .  <br><br>
 
-• You Get Your PlayLists under ```DCIM/Sneh-TataSky/code_samples``` Folder of Internal Storage . <br>
+• You Get Your PlayLists under ```DCIM/Sneh-TataSky-Termux/Sneh-TataSky``` Folder of Internal Storage . <br>
 • Just Import m3u PlayLists in Tivimate or IPTV Smarter Pro & Enjoy . <br>
 • Click On Channel and Play <br>
 
@@ -69,7 +69,7 @@ After Doing Any of Above 1 or 2 .Then Click 3 .<br>
 <hr>
 
 - You can simply use the android app in your mobile phone or TV, login and then generate an m3u
-- The app can be found [here](static/app.apk)
+- The app can be found [here](https://github.com/techiesneh/Sneh-TataSky/blob/main/static/app.apk?raw=true)
 - Note that you have to generate a new playlist before the exploit time, that is mentioned in the app, or just one day for simplicity
 - The app can smartly detect if you have a playlist already in the mentioned directory,(the location of the file can be found inside the app), and it overwrites the content if you generate it again and again
 - You can point Tivimate to the location mentioned in the app, and just update once whenever you want to watch the playlist, should work fine
